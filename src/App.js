@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Header from './components/header';
 import axios from 'axios';
 import './App.css';
+import porscheMap from './assets/porsche_and_map.png';
 
 
 function App() {
@@ -20,26 +21,33 @@ function App() {
    console.log(data)
    
   return (
+    <>
+      <Header></Header>
+    
     <div className="App">
+      <h1 className='titulo'> Comparador de Carros </h1>
+      
 
-    <Header/>
-
-      <div id="dados-carro">
-      <p>Fabricante: { data?.fabricante }</p>
-      <p>Modelo: { data?.modelo }</p>
-      <p>Ano de Fabricação: { data?.anoDeFabricacao }</p>
-      <p>Potência: { data?.potencia }HP</p>
-      <p>Torque: { data?.torque }kgfm</p>
-      <p>Litragem do Motor: { data?.litragemMotor }L</p>
-      <p>Aspiração: { data?.aspiracao }</p>
-      <p>0 à 100km/h: { data?.zeroACem } segundos</p>
-      <p>Velocidade Máxima: { data?.velocidadeFinal }km/h</p>
-      <p>Nacionalidade: { data?.nacionalidade }</p>
-      <p>Tipo de Combustível: { data?.combustivel }</p>
-      <p>Consumo de Combustivel: { data?.consumoCombustivel }km/l</p>
-      </div>
+{/* 
+      <div className="dados-carro">
+        <p>Fabricante: { data?.fabricante }</p>
+        <p>Modelo: { data?.modelo }</p>
+        <p>Ano de Fabricação: { data?.anoDeFabricacao }</p>
+        <p>Potência: { data?.potencia }HP</p>
+        <p>Torque: { data?.torque }kgfm</p>
+        <p>Litragem do Motor: { data?.litragemMotor }L</p>
+        <p>Aspiração: { data?.aspiracao }</p>
+        <p>0 à 100km/h: { data?.zeroACem } segundos</p>
+        <p>Velocidade Máxima: { data?.velocidadeFinal }km/h</p>
+        <p>Nacionalidade: { data?.nacionalidade }</p>
+        <p>Tipo de Combustível: { data?.combustivel }</p>
+        <p>Consumo de Combustivel: { data?.consumoCombustivel }km/l</p>
+      </div> */}
 
     </div>
+    
+    
+    </>
   );
 }
 
