@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+
 .App {
     text-align: center;
     font-family: 'Courier New', monospace;
 }
 
-p.dados-carro {
-    font:red;
+body
+{
+    background-image: url(./assets/porsche_and_map.png);
+    background-size: 1300px;
+    background-position-x: right;
+    background-repeat: no-repeat;
+}
+
+.App, titulo{
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 80px;
+    font-size: 50px;
+    text-align: left;
 }
