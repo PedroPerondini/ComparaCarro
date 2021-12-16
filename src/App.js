@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import Header from './components/header';
+import Header from './components/PaginaInicial/headerPaginaInicial';
 import axios from 'axios';
 import './App.css';
-import porscheMap from './assets/porsche_and_map.png';
+import HeaderPaginaInicial from './components/PaginaInicial/headerPaginaInicial';
 
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
    
   return (
     <>
-      <Header></Header>
+      <HeaderPaginaInicial/>
     
     <div className="App">
       <h1 className='titulo'> Compara Carros </h1>

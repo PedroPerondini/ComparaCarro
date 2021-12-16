@@ -1,0 +1,26 @@
+*{
+    margin:0;  
+    padding:0;
+    border:0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font:inherit;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    background-color: red;
+    max-width: 100%;
+    font-size: 20px;
+}
+
+.right, p{
+    color:black;
+    /*display: flex;
+    align-items: flex-end;*/
+    position: absolute;
+    right: 150px;
+    word-spacing: 5px;
+}
