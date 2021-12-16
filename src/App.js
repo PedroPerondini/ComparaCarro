@@ -25,7 +25,7 @@ function App() {
       <Header></Header>
     
     <div className="App">
-      <h1 className='titulo'> Comparador de Carros </h1>
+      <h1 className='titulo'> Compara Carros </h1>
       
 
 {/* 
