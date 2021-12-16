@@ -1,0 +1,26 @@
+
+
+.right {
+    font-size: 20px;
+    position: absolute;
+    right: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    padding-top: 15px;
+}
+
+.right, p{
+    color:black;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.border{
+    background-color: black;
+    border-radius: 40px;
+}
+
+.baixar {
+    color: white;
+}
