@@ -19,14 +19,14 @@ function App() {
    }, [])
 
    console.log(data)
-   
+
   return (
     <>
       <HeaderPaginaInicial/>
-    
+
     <div className="App">
       <h1 className='titulo'> Compara Carros </h1>
-      
+
 
 {/* 
       <div className="dados-carro">
@@ -45,8 +45,8 @@ function App() {
       </div> */}
 
     </div>
-    
-    
+
+
     </>
   );
 }
