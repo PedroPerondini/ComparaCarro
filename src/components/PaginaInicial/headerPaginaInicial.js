@@ -7,7 +7,9 @@ function HeaderPaginaInicial()
     <div className ="right">
         <p className="home">Home</p>
         <p className="comparar">Comparar</p>
-        <p className="baixar">Baixar aplicativo</p> 
+        <div className="border">
+            <p className="baixar">Baixar aplicativo</p> 
+        </div>
     </div>);
 }
 
