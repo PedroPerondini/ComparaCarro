@@ -7,6 +7,7 @@ export default function ComparaCarro () {
 
     return (
         <>
+            <Header/>
             <h1> Comparra Carro Page </h1>
             
         </>
