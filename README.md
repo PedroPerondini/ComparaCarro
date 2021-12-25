@@ -68,3 +68,32 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+ /* let id = 1;
+  const url = "https://api-carros.herokuapp.com/api/Carro/GetId/" + id;
+  const [data, setData] = useState();
+
+   React.useEffect(function() {
+      axios.get(url, {headers: {
+         "requestToken" : "bcd40b09-6328-4335-9de9-fd91cbcf46e5"
+      }})
+      .then(response => setData(response.data), console.log(data))
+      .catch(error => console.log(error))
+   }, [])
+
+   console.log(data) */
+   /* 
+      <div className="dados-carro">
+        <p>Fabricante: { data?.fabricante }</p>
+        <p>Modelo: { data?.modelo }</p>
+        <p>Ano de Fabricação: { data?.anoDeFabricacao }</p>
+        <p>Potência: { data?.potencia }HP</p>
+        <p>Torque: { data?.torque }kgfm</p>
+        <p>Litragem do Motor: { data?.litragemMotor }L</p>
+        <p>Aspiração: { data?.aspiracao }</p>
+        <p>0 à 100km/h: { data?.zeroACem } segundos</p>
+        <p>Velocidade Máxima: { data?.velocidadeFinal }km/h</p>
+        <p>Nacionalidade: { data?.nacionalidade }</p>
+        <p>Tipo de Combustível: { data?.combustivel }</p>
+        <p>Consumo de Combustivel: { data?.consumoCombustivel }km/l</p>
+      </div> */
