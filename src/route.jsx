@@ -15,7 +15,7 @@ export default function RouteComponent() {
                 <Route path="/home" exact component={HomePage} />   
                 <Route path="/compara" exact component={ComparaCarro} />   
                 <Route path="*">
-                    <p> <strong> NOT FOUND 404 </strong> </p>
+                    <p> <strong> NOT FOUND 666 </strong> </p>
                 </Route>
             </Switch>
         </Router>
