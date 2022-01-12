@@ -15,7 +15,17 @@ export default function HomePage () {
                 <h1> TITULO </h1>
             </div>
             <div className='footer'>
-                <h1> ICONES </h1>
+                <div className='container'>
+                    <div className='audi-logo'>
+                        <img src="https://www.carlogos.org/logo/Audi-logo-2009-1920x1080.png" alt="audi-logo" srcset="" />
+                    </div>
+                    <div className='bugatti-logo'>
+                        <img src="https://www.carlogos.org/logo/Bugatti-logo-1024x768.png" alt="bugatti-logo" srcset="" />
+                    </div>
+                    <div className='chevy-logo'>
+                        <img src="https://www.carlogos.org/logo/Chevrolet-logo-2013-2560x1440.png" alt="chevy-logo" srcset="" />
+                    </div>
+                </div>
             </div>
         </>
     );

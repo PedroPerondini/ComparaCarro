@@ -33,3 +33,32 @@
     margin-left: 10px;
     height: 30vh;
 }
+
+.container {
+    position: relative;
+}
+
+.audi-logo img {
+    height: 110px;
+    width: auto;
+    position:absolute;
+    margin-top: 110px;
+    margin-left: 10px;
+    display: inline-block;
+}
+
+.bugatti-logo img {
+    height:170px;
+    width: auto;
+    position:absolute;
+    margin-top: 70px;
+    margin-left: 200px;
+}
+
+.chevy-logo img {
+    height:110px;
+    width: auto;
+    position:absolute;
+    margin-top: 100px;
+    margin-left: 425px;
+}
