@@ -12,17 +12,10 @@ export default class HomePage extends Component {
             dots: true,
             infinite: true,
             speed: 500,
-            slidesToShow: 6,
+            slidesToShow: 4,
             slidesToScroll: 1,
             className: "center"
         };
-
-        function imageResize ()
-        {
-            let images = document.getElementsByClassName('container');
-            images.style.width = '1920px';
-            images.stye.height = '1080px';
-        }
 
         return (
             <>
@@ -34,7 +27,7 @@ export default class HomePage extends Component {
                     <h1> TITULO </h1>
                 </div>
                 <div className='footer'>
-                    <div className="container" onLoad={imageResize()}> 
+                    <div className="container"> 
                         <Slider {...settings}>
                             <div>
                                 <img src="https://www.carlogos.org/logo/Audi-logo-2009-1920x1080.png" alt="" srcset="" />
