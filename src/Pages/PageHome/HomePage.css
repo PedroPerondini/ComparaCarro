@@ -3,6 +3,8 @@
 *{
     padding: 0;
     margin: 0;
+    background-image: url(/src/Pages/components/HD_wallpaper__White_Motorcycle_Cluster_Gauge_car_dashboard_indicator_needle.jfif);
+    background-repeat: no-repeat;
 }
 .titulo, .containerImage{
     display: inline-block;
@@ -14,11 +16,19 @@
     height: 60vh;
     margin-left: 10px;
     margin-top: 20px;
+}
+.titulo h1{
     font-family: 'IBM Plex Sans', sans-serif;
-    font-style: normal;
-    font-size: 48px;
-    line-height: 85px;
-    color: #000000;
+    font-size: 110px;
+    width: 38%;
+    height: 25vh;
+    line-height: 106px;
+    margin-top: 86px;
+}
+.titulo p{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 32px;
+    margin-top: 15px;
 }
 
 .containerImage{

@@ -18,13 +18,14 @@ export default class HomePage extends Component {
         };
 
         return (
-            <>
+            <>  
                 <Header/>
                 <div className='containerImage'>
                     <h1> IMAGEM DO CARRO </h1>
                 </div>
                 <div className='titulo'>
                     <h1>Compara Carros</h1>
+                    <p>O incentivo ao avanço tecnológico, assim como a estrutura atual da organização auxilia a preparação e a composição dos procedimentos normalmente adotados</p>
                 </div>
                 <div className='footer'>
                     <div className="container"> 
